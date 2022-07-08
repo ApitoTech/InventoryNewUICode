@@ -9,7 +9,7 @@ export class CommonService {
 
   //private baseUrl = 'http://ec2-18-220-112-92.us-east-2.compute.amazonaws.com:8080/InventoryApp-1.0/';
 
-  private baseUrl  = 'http://localhost:8080/';
+  private baseUrl  = 'https://api.apitoinventory.com/';
   //local aws
   //private baseUrl = 'http://43.204.227.192:8080/InventoryApp-1.0/';
   constructor(private http:HttpClient) { }
